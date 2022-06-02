@@ -22,3 +22,7 @@ Template: astra
     left: 0;
     position: absolute;
 }
+
+.footer-widget-area[data-section="sidebar-widgets-footer-widget-2"].footer-widget-area-inner {
+    text-align: center;
+}
