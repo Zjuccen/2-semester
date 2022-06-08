@@ -14,12 +14,12 @@ Template: astra
     background-color: #3b5b6a;
 }
 
-.footer {
+footer {
     color: #FFFFFF;
     font-family: roboto condensed;
 }
 
-.footer h3 {
+footer h3 {
     color: #FFFFFF;
     font-family: roboto condensed;
 }
