@@ -10,19 +10,23 @@ Text Domain: astra-child
 Template: astra
 */
 
-.elementor-widget-wrap .elementor-element-populated {
-    height: 1020px;
-    width: 1980px;
+footer {
+    color: #ffffff;
+    font-family: roboto condence;
 }
 
-.elementor-background-overlay, .elementor .elementor-background-slideshow {
-    height: 1020px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
+footer h3 {
+    color: #ffffff;
 }
 
-.footer-widget-area[data-section="sidebar-widgets-footer-widget-2"].footer-widget-area-inner {
-    text-align: center;
+.ast-builder-grid-row-container-inner {
+    background-color: #3B5B6A;
+}
+
+.site-primary-footer-wrap .ast-builder-grid-row-container .site-footer-focus-item .ast-builder-grid-row-3-equal .ast-builder-grid-row-tablet-3-equal .ast-builder-grid-row-mobile-full .ast-footer-row-stack .ast-footer-row-tablet-stack .ast-footer-row-mobile-stack {
+    background-color: #3B5B6A;
+}
+
+.site-primary-footer-wrap[data-section="section-primary-footer-builder"] {
+    background-color: #3B5B6A;
 }
