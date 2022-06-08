@@ -10,6 +10,8 @@ Text Domain: astra-child
 Template: astra
 */
 
+
+/* ----- wordpress kode ----- */
 .site-primary-footer-wrap[data-section="section-primary-footer-builder"] {
     background-color: #3b5b6a;
 }
@@ -33,6 +35,67 @@ footer h3 {
 header a{
     color: #000000;
 }
+
+/* ----- HTML KODE ----- */
+body {
+   background-color: antiquewhite;
+}
+
+.kontakt {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    height: 1000px;
+}
+
+.kontakt img{
+    height: 50vh;
+    width: 50vh;
+    object-fit: cover;
+}
+
+
+
+.flex-box{
+    font-size: 1.2em;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 50vh;
+    align-items: center;
+}
+
+.flex-box button {
+    margin: 2rem;
+}
+
+.baggrund {
+    background-color: #3b5b6a;
+}
+
+.overskrift {
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+}
+
+.my-btn button {
+        background-color: #ffffff; /* Green */
+        border: none;
+        color: #000000;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+
+
+
+/* ----- media queue wordpress ----- */
 
 @media (max-width: 921px) {
     
